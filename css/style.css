@@ -47,7 +47,8 @@
 
 	a:hover {
 			text-decoration: none;
-			color: #e0555a !important;
+			font-weight: bold;
+			/*color: #e0555a !important;*/
 			border-bottom-color: transparent;
 	}
 
@@ -68,6 +69,11 @@
 		margin: 0 0 2em 0;
 		text-indent: 50px ;
 		text-align: justify;
+	}
+
+	p.white {
+		/*font-weight: bold;*/
+		color: #FFFFFF !important;
 	}
 
 
@@ -181,6 +187,10 @@
 	}
 
 /* Section/Article */
+
+	article.grey {
+		background-color: #f2f2f2;
+	}
 
 	section.special, article.special {
 		text-align: center;

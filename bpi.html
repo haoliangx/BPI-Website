@@ -10,6 +10,9 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="Behavior Problem Inventory, BPI" />
 
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+
 	<link rel="stylesheet" href="style.css"/>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
@@ -17,11 +20,11 @@
 <body class="landing">
 
 	<div id="banner" class="header">
-		<p id="title">
+		<p class="title">
 			The Behavior Problems Inventory
 		</p>
 
-		<p id="author">
+		<p class="author">
 			Johannes Rojahn
 		</p>
 	</div>
@@ -39,21 +42,19 @@
 	<div id="menu">
 		<ul>
 			<li>
-				<a href="#hide-conditions-of-use" class="hide" id="hide-conditions-of-use">Conditions of Use</a>
-				<a href="#show-conditions-of-use" class="show" id="show-conditions-of-use">Conditions of Use</a>
-				<div class="list">
-				<p>Both instruments may be used for personal unfunded research, clinical work, and other non-commercial purposes. Schools and other organizations who wish to use the BPI on a routine basis or funded research investigators will be charged either U$ 150.00 for the permission to make 50 copies from the electronic prototype, or U$ 250.00 for an unlimited number of copies. </p>
-				<p>For questions, please contact Johannes Rojahn (E-mail: <a href="mailto:jrojahn@gmu.edu">jrojahn@gmu.edu</a>; Mailing address: 8 Addison Street, Beaufort, SC 29907, USA)</p>
+				<a class="menu-title" href="#">Conditions of Use</a>
+				<div class="menu-content">
+					<p>Both instruments may be used for personal unfunded research, clinical work, and other non-commercial purposes. Schools and other organizations who wish to use the BPI on a routine basis or funded research investigators will be charged either U$ 150.00 for the permission to make 50 copies from the electronic prototype, or U$ 250.00 for an unlimited number of copies. </p>
+					<p>For questions, please contact Johannes Rojahn (E-mail: <a href="mailto:jrojahn@gmu.edu">jrojahn@gmu.edu</a>; Mailing address: 8 Addison Street, Beaufort, SC 29907, USA)</p>
 				</div>
 			</li>
 			<li>
-				<a href="#hide-bpi-01" class="hide" id="hide-bpi-01">Behavior Problems Inventory - 01 (BPI - 01)</a>
-				<a href="#show-bpi-01" class="show" id="show-bpi-01">Behavior Problems Inventory - 01 (BPI - 01)</a>
-				<div class="list">
-				<ul>
+				<a class="menu-title" href="#">Behavior Problems Inventory - 01 (BPI - 01)</a>
+				<div class="menu-content">
+					<ul>
 					<li>
 						Download PDF copies of the instrument
-						<ul class="horizontal-bar">
+						<ul class="horizontal">
 							<li><a href="#">English</a></li>
 							<li><a href="#">Arabic</a></li>
 							<li><a href="#">Chinese (simplified)</a></li>
@@ -73,8 +74,9 @@
 						</ul>
 					</li>
 					<li>
-						Selected Publications
-						<ul>
+						<a class="menu-title" href="#">Selected Publications</a>
+						<div class="menu-content">
+							<ul>
 							<li>Aman, M. G., DeSmedt, G., Derivan, A., Lyons, B., Findling, R. L. &amp; The Risperidone Conduct Study Group (2002). Double-blind, placebo-controlled study of risperidone for the treatment of disruptive behaviors in children with sub-average intelligence. American Journal of Psychiatry, 159, 1337-1346.</li>
 							<li>Collins, M. S., &amp; Cornish, K. (2002). A survey of the prevalence of stereotypy, self-injury and aggression in children and young adults with Cri du Chat syndrome. Journal of Intellectual Disability Research, 46, 133-140. </li>
 							<li>Csorba, J., Radvanyi, K., Regenyi, E., &amp; Dinya, E. (2011). A study of behavior profiles among intellectually disabled people in residential care in Hungary. Research in Developmental Disabilities, 32, 1757-1763. </li>
@@ -104,19 +106,18 @@
 							<li>Rojahn, J., Rowe, E. W., Sharber, A. C., Hastings, R. P., Matson, J. L., Didden, R., Kroes, D. B. H., &amp; Dumont, E. L. M. (2012). The Behavior Problems Inventory-Short Form (BPI-S) for Individuals with Intellectual Disabilities II: Reliability and Validity. Journal of Intellectual Disability Research. 56, 546–565.</li>
 							<li>Courtemanche, A. B.; Black, W. R.; Reese, R. M. (2016). The relationship between pain, self-injury, and other problem behaviors in young children with autism and other developmental disabilities. American Journal on Intellectual and Developmental Disabilities, 21, 194-203.</li>
 						</ul>
+						</div>
 					</li>
 				</ul>
 				</div>
 			</li>
 			<li>
-				<p class="menu-title"></p>
-				<a href="#hide-bpi-s" class="hide" id="hide-bpi-s">Behavior Problems Inventory - S (BPI - S)</a>
-				<a href="#show-bpi-s" class="show" id="show-bpi-s">Behavior Problems Inventory - S (BPI - S)</a>
-				<div class="list">
-				<ul>
+				<a class="menu-title" href="#">Behavior Problems Inventory - S (BPI - S)</a>
+				<div class="menu-content">
+					<ul>
 					<li>
 						Download PDF copies of the instrument
-						<ul>
+						<ul class="horizontal">
 							<li><a href="#">English</a></li>
 							<li><a href="#">Chinese (simplified)</a></li>
 							<li><a href="#">Chinese (traditional)</a></li>
@@ -127,13 +128,15 @@
 						</ul>
 					</li>
 					<li>
-						Selected Publications
-						<ul>
+						<a class="menu-title" href="#">Selected Publications</a>
+						<div class="menu-content">
+							<ul>
 							<li>Rojahn, J., Rowe, E. W., Sharber, A. C., Hastings, R. P., Matson, J. L., Didden, R., Kroes, D. B. H., &amp; Dumont, E. L. M. (2012). The Behavior Problems Inventory-Short Form (BPI-S) for Individuals with Intellectual Disabilities I: Development and Provisional Clinical Reference Data. Journal of Intellectual Disability Research, 56, 527–545.</li>
 							<li>Rojahn, J., Rowe, E. W., Sharber, A. C., Hastings, R. P., Matson, J. L., Didden, R., Kroes, D. B. H., &amp; Dumont, E. L. M. (2012). The Behavior Problems Inventory-Short Form (BPI-S) for Individuals with Intellectual Disabilities II: Reliability and Validity. Journal of Intellectual Disability Research. 56, 546–565.</li>
 							<li>Bernstein, A. M.; Visconti, K. J.; Csorba, J.; Radvanyi, K.; Rojahn, J. (2015). The relationship between challenging behaviours, mood and interest/pleasure in adults with severe and profound intellectual disabilities. Journal of Intellectual Disability Research, 59, 1033-1041. http://dx.doi.org.mutex.gmu.edu/10.1111/jir.12202</li>
 							<li>Mascitelli, A. N.; Rojahn, J., Nicolaides, V. C., Moore, L., Hastings, R. P., Christian‐Jones, C. (2015). The Behaviour Problems Inventory-Short Form: Reliability and factorial validity in adults with intellectual disabilities. Journal of Applied Research in Intellectual Disabilities, 28, 561-571. http://dx.doi.org.mutex.gmu.edu/10.1111/jar.12152</li>
 						</ul>
+						</div>
 					</li>
 				</ul>
 				</div>
@@ -143,10 +146,8 @@
 </body>
 
 <footer id="footer">
-	<!--<script type="text/javascript" src="http://counter7.allfreecounter.com/private/counter.js?c=78c47d8727088c70d28d531b956ba2bf"></script>-->
-	<br />
 	<span class="copyright">
-		&copy; Copyright. All rights reserved. Design by <a href="http://haoliang.me">Haoliang</a>
+		Design by <a href="http://haoliang.me">Haoliang Wang</a>
 	</span>
 </footer>
 

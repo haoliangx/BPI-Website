@@ -2,31 +2,57 @@ body, input, select, textarea {
 	color: #646464;
 	font-family: "Lato", Helvetica, sans-serif;
 	font-size: 15pt;
-	font-weight: 600;
-	line-height: 1.75em;
+	font-weight: 400;
+	line-height: 1.5em;
 }
 
-.show {
-    display: none; 
-}
-.hide:target + .show {
-    display: inline; 
-}
-.hide:target {
-    display: none; 
-}
-.hide:target ~ .list {
-    display:inline; 
+.title {
+	font-size: 25pt;
+	text-align: center;
 }
 
-.list {
-    display:none; 
-    height:auto;
-    /*margin:0;
-    float: left;*/
+.author {
+	text-align: center;
 }
 
+#intro {
+	margin-left: 10%;
+	margin-right: 10%;
+}
 
+#menu {
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+.horizontal {
+    list-style-type: none;
+    /*margin: 10px;
+    padding: 10px;*/
+    overflow: hidden;
+	width: 90%;
+}
+
+.horizontal li {
+    display: inline-block;
+	/*float: left;*/
+	width: 20%;
+}
+
+.horizontal a {
+    display: block;
+    padding: 8px;
+	background-color: #dddddd;
+}
+
+.horizontal a:hover {
+    background-color: #0D67DD;
+	color: aliceblue;
+}
+
+#footer {
+	text-align: center;
+}
 
 /*
 .hide, .show {

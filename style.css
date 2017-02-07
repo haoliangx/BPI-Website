@@ -1,4 +1,4 @@
-body, input, select, textarea {
+body, input, select, textarea, p, a{
 	color: #4d4d4d;
 	font-family: "Lato", Helvetica, sans-serif;
 	font-size: 15pt;
@@ -28,6 +28,11 @@ body {
 	box-shadow: 15px 15px 30px 0 white inset, -15px -15px 30px 0 white inset; 
 }
 
+#main {
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
 .title {
 	font-weight: bold;
 	font-size: 28pt;
@@ -45,15 +50,15 @@ body {
 	border-radius: 10px;
 }
 
-#intro {
+/*#intro {
 	margin-left: 10%;
 	margin-right: 10%;
-}
+}*/
 
-#menu {
+/*#menu {
 	margin-left: 11%;
 	margin-right: 11%;
-}
+}*/
 
 .menu-title {
 	font-weight: bold;

@@ -1,4 +1,4 @@
-body, input, select, textarea, p, a{
+body, input, select, textarea, p, a, article {
 	color: #4d4d4d;
 	font-family: "Lato", Helvetica, sans-serif;
 	font-size: 15pt;
@@ -6,8 +6,32 @@ body, input, select, textarea, p, a{
 	line-height: 1.5em;
 }
 
+p {
+	text-align: justify;
+}
+
 body {
 	overflow-y: scroll;
+}
+
+hr {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+	 margin-left: 11%;
+	margin-right: 11%;
+}
+hr:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: #ffffff;
+	color: #8c8b8b;
+	font-size: 18px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
 }
 
 #banner {
@@ -45,7 +69,6 @@ body {
 }
 
 .author:hover {
-	background: rgba(254, 254, 254, .2);
 	text-decoration: underline;
 	border-radius: 10px;
 }
@@ -214,120 +237,119 @@ body {
 	}*/
 
 .tabordion {
-  color: #333;
-  display: block;
-  font-family: arial, sans-serif;
-  margin: auto;
-  position: relative;
-  width: 80%;
+	display: block;
+	margin: auto;
+	position: relative;
+	width: 80%;
 }
 
 .tabordion input[name="sections"] {
-  left: -9999px;
-  position: absolute;
-  top: -9999px;
+	left: -9999px;
+	position: absolute;
+	top: -9999px;
 }
 
 .tabordion section {
-  display: block;
+	display: block;
 }
 
 .tabordion section label {
-  background: #ccc;
-  border:1px solid #fff;
-  cursor: pointer;
-  display: block;
-  font-size: 1.2em;
-  font-weight: bold;
-  padding: 15px 20px;
-  position: relative;
-  width: 180px;
-  z-index:100;
+	background: #ccc;
+	/*border:1px solid #fff;*/
+	cursor: pointer;
+	display: block;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 15px 20px;
+	position: relative;
+	width: 180px;
+	z-index:100;
+	margin-top: -5px;
 }
 
 .tabordion section article {
-  display: none;
-  left: 230px;
-  min-width: 300px;
-  padding: 0 0 0 21px;
-  position: absolute;  
-  top: 0;
+	display: none;
+	left: 230px;
+	min-width: 300px;
+	padding: 0 0 0 21px;
+	position: absolute;  
+	top: 0;
 }
 
 .tabordion section article:after {
-  background-color: #ccc;
-  bottom: 0;
-  content: "";
-  display: block;
-  left:-229px;
-  position: absolute;
-  top: 0;
-  width: 220px;
-  z-index:1;
+	background-color:#ff8000;
+	bottom: 0;
+	content: "";
+	display: block;
+	left:-230px;
+	position: absolute;
+	top: 0;
+	width: 200px;
+	z-index:1;
+	height: 318px;
 }
 
 .tabordion input[name="sections"]:checked + label { 
-  background: #eee;
-  color: #bbb;
+	background: #ff8000;
+	color: #fff;
 }
 
 .tabordion input[name="sections"]:checked ~ article {
-  display: block;
+	display: block;
 }
 
 
 @media (max-width: 533px) {
-  
-  h1 {
-    width: 100%;
-  }
 
-  .tabordion {
-    width: 100%;
-  }
-  
-  .tabordion section label {
-    font-size: 1em;
-    width: 160px;
-  }  
+	h1 {
+		width: 100%;
+	}
 
- .tabordion section article {
-    left: 200px;
-    min-width: 270px;
-  } 
-  
-  .tabordion section article:after {
-    background-color: #ccc;
-    bottom: 0;
-    content: "";
-    display: block;
-    left:-199px;
-    position: absolute;
-    top: 0;
-    width: 200px;
+	.tabordion {
+		width: 100%;
+	}
 
-  }  
-  
+	.tabordion section label {
+		font-size: 1em;
+		width: 160px;
+	}  
+
+	.tabordion section article {
+		left: 200px;
+		min-width: 270px;
+	} 
+
+	.tabordion section article:after {
+		background-color: #ccc;
+		bottom: 0;
+		content: "";
+		display: block;
+		left:-199px;
+		position: absolute;
+		top: 0;
+		width: 200px;
+	}  
+
 }
 
 
 @media (max-width: 768px) {
-  h1 {
-    width: 96%;
-  }
+	h1 {
+		width: 96%;
+	}
 
-  .tabordion {
-    width: 96%;
-  }
+	.tabordion {
+		width: 96%;
+	}
 }
 
 
 @media (min-width: 1366px) {
-  h1 {
-    width: 70%;
-  }
+	h1 {
+		width: 70%;
+	}
 
-  .tabordion {
-    width: 70%;
-  }
+	.tabordion {
+		width: 70%;
+	}
 }

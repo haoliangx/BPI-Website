@@ -1,7 +1,7 @@
 body, input, select, textarea, p, a, article {
 	color: #4d4d4d;
 	font-family: 'Noto Sans', Helvetica, sans-serif;
-	font-size: 15pt;
+	font-size: 12pt;
 	font-weight: 400;
 	line-height: 1.5em;
 }
@@ -119,12 +119,20 @@ hr:after {
 	text-align: center;
     display: block;
     padding: 8px;
-	background-color: #dddddd;
+	/*background-color: #dddddd;*/
+	background: linear-gradient(#6699CC 50%, #dddddd 50%);
 	border-radius: 10px;
+	font-style: italic;
+}
+
+.horizontal .lang {
+	color: #ffffff;
+	font-style: normal;
 }
 
 .horizontal a:hover {
-    background-color: #6699CC;
+    /*background-color: #6699CC;*/
+    background: #79a6d2;
 	color: aliceblue;
 }
 
@@ -281,6 +289,7 @@ hr:after {
 	padding: 0 0 0 21px;
 	position: absolute;  
 	top: 0;
+	padding-bottom: 2em;
 }
 
 .tabordion section article:after {

@@ -105,7 +105,7 @@ hr:after {
     /*margin: 10px;
     padding: 10px;*/
     overflow: hidden;
-	width: 100%;
+	width: 120%;
 }
 
 .horizontal li {
@@ -133,7 +133,6 @@ hr:after {
 .horizontal a:hover {
     /*background-color: #6699CC;*/
     background: #79a6d2;
-	color: aliceblue;
 }
 
 #footer {
@@ -279,6 +278,13 @@ hr:after {
 	z-index:100;
 	border-radius: 12px;
 	/*margin-top: -5px;*/
+	text-align: right;
+}
+
+.tabordion section label i {
+	float:left; 
+	font-size: 2em; 
+	margin-top: -3px;
 }
 
 .tabordion section article {

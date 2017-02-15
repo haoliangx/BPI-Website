@@ -135,17 +135,21 @@ hr:after {
     background: #79a6d2;
 }
 
-#footer {
-	text-align: center;
-}
-
 .pub-list li {
 	padding-left: 3em;
     text-indent:-3em;
 }
 
 .copyright {
-	font-size: 12pt;
+	padding-top: 1em;
+	margin-left: 11%;
+	width: 14%;
+	font-size: 9pt;
+	text-align: right;
+}
+
+.copyright a {
+	font-size: 9pt;
 }
 /*
 .hide, .show {

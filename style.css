@@ -40,7 +40,7 @@ hr:after {
 
 #banner {
 	text-align: center;
-	background-image: url("bg-1.jpg");
+	background-image: url("bg-3.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -63,8 +63,9 @@ hr:after {
 
 .title {
 	font-weight: bold;
-	font-size: 28pt;
+	font-size: 42pt;
 	color: #ffffff;
+	text-shadow: 3px 3px 1px rgba(150, 150, 150, 0.72);
 }
 
 .author {
@@ -89,8 +90,8 @@ hr:after {
 
 .menu-title {
 	font-weight: bold;
-	padding-left: 20px;
-	padding-right: 20px;
+/*	padding-left: 20px;
+	padding-right: 20px;*/
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
@@ -150,6 +151,13 @@ hr:after {
 
 .copyright a {
 	font-size: 9pt;
+}
+
+.inner-icon {
+	margin-top: 0.5em;
+	text-indent:1em;
+	font-size: 20pt;
+	padding-right: 1em;
 }
 /*
 .hide, .show {
@@ -293,9 +301,9 @@ hr:after {
 
 .tabordion section article {
 	display: none;
-	left: 25%;
+	left: 22%;
 	min-width: 300px;
-	width: 75%;
+	width: 78%;
 	padding: 0 0 0 21px;
 	position: absolute;  
 	top: 0;
@@ -307,7 +315,7 @@ hr:after {
 	bottom: 0;
 	content: "";
 	display: block;
-	left:-6%;
+	left:-1%;
 	position: absolute;
 	top: 0;
 	width: 1.5%;
